@@ -3,7 +3,7 @@ from joblib import load
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = '7927790533:AAGeonbnjCnl9LIom9rYflf-O7EsJQMir90'
+BOT_TOKEN = 'token goes here'
 MODEL = load('npk_ph_predictor.pkl')
 
 def classify(val, thres):
